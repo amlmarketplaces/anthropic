@@ -1,0 +1,58 @@
+{
+  "name": "anthropic",
+  "owner": {
+    "name": "Anthropic"
+  },
+  "description": "Claude Code marketplace federating every @amlplugins/anthropic-* plugin under a single marketplace source.",
+  "plugins": [
+    {
+      "name": "anthropic-batches",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-batches.git"
+      }
+    },
+    {
+      "name": "anthropic-bedrock",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-bedrock.git"
+      }
+    },
+    {
+      "name": "anthropic-files",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-files.git"
+      }
+    },
+    {
+      "name": "anthropic-messages",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-messages.git"
+      }
+    },
+    {
+      "name": "anthropic-prompt-caching",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-prompt-caching.git"
+      }
+    },
+    {
+      "name": "anthropic-tool-use",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-tool-use.git"
+      }
+    },
+    {
+      "name": "anthropic-vertex",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/amlplugins/anthropic-vertex.git"
+      }
+    }
+  ]
+}
